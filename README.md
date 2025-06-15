@@ -21,4 +21,15 @@ Whether you're learning DSA or preparing for interviews, this repo aims to help 
 ---
 
 ## 📁 Folder Structure
-
+├── Arrays/
+│ ├── two_sum.py
+│ ├── kadane_algorithm.py
+│ └── README.md
+├── Strings/
+│ ├── valid_anagram.py
+│ └── README.md
+├── LinkedList/
+├── Trees/
+├── Graphs/
+├── DynamicProgramming/
+├── README.md

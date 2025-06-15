@@ -79,9 +79,17 @@ Each topic contains multiple problems and detailed solutions. Some problems incl
    cd dsa-python
 
 
-📈 Progress Tracker
+## 📈 Progress Tracker
 
 | Topic               | Problems Solved | Status         |
 | ------------------- | --------------- | -------------- |
-| Arrays              | 0/20           | 🔄 In Progress |
+| Arrays              | 0/20            | 🔄 In Progress |
  
+## 🙌 Contributions & Feedback
+This is a personal learning repository. If you have suggestions, corrections, or ideas to improve the explanations or structure, feel free to open an issue or pull request.
+
+### 🌐 Connect with Me
+
+🔗 LinkedIn : [text](https://www.linkedin.com/in/muhammad-manan1122/)
+
+If you found this helpful, don’t forget to ⭐ star the repo!

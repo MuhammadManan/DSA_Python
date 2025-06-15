@@ -77,3 +77,11 @@ Each topic contains multiple problems and detailed solutions. Some problems incl
    ```bash
    git clone https://github.com/yourusername/dsa-python.git
    cd dsa-python
+
+
+📈 Progress Tracker
+
+| Topic               | Problems Solved | Status         |
+| ------------------- | --------------- | -------------- |
+| Arrays              | 0/20           | 🔄 In Progress |
+ 

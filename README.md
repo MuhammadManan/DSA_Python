@@ -95,3 +95,7 @@ This is a personal learning repository. If you have suggestions, corrections, or
 🔗 LinkedIn : [url](https://www.linkedin.com/in/muhammad-manan1122/)
 
 If you found this helpful, don’t forget to ⭐ star the repo!
+
+#### “The only way to learn a new programming language is by writing programs in it.” – Dennis Ritchie
+
+ 

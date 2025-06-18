@@ -9,7 +9,10 @@ def contains_value(arr, value):
     Returns:
         bool: True if value is found, False otherwise.
     """
-    return value in arr
+    for item in arr:
+        if item == value:
+            return True
+    return False
 
 # Example usage:
 if __name__ == "__main__":

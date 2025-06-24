@@ -29,3 +29,16 @@ def threeSum(nums: List[int]) -> List[List[int]]:
 if __name__ == "__main__":
     nums = [-1, 0, 1, 2, -1, -4]
     print(threeSum(nums))  # Output: [[-1, -1, 2], [-1, 0, 1]]
+
+
+    # Additional test cases
+    test_cases = [
+        ([], []),
+        ([0, 0, 0], [[0, 0, 0]]),
+        ([1, 2, -2, -1], []),
+        ([-2, 0, 1, 1, 2], [[-2, 0, 2], [-2, 1, 1]]),
+    ]
+
+    for nums, expected in test_cases:
+        result = threeSum(nums)
+        print(f"Input: {nums} => Output: {result} | Expected: {expected}")

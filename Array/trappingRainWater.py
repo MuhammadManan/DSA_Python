@@ -1,4 +1,13 @@
 def trap(height):
+    """
+    Calculate the total amount of trapped rainwater given an elevation map.
+
+    Parameters:
+    height (List[int]): A list of non-negative integers representing the elevation map.
+
+    Returns:
+    int: The total units of trapped rainwater.
+    """
     n = len(height)
     left, right = 0, n - 1
     left_max, right_max = 0, 0

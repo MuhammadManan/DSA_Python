@@ -1,4 +1,8 @@
 def trap(height):
+    n = len(height)
+    left, right = 0, n - 1
+    left_max, right_max = 0, 0
+    trapped_water = 0
     
     while left < right:
         if height[left] < height[right]:

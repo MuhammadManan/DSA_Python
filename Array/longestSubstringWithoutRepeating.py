@@ -6,7 +6,7 @@ def length_of_longest_substring(s: str) -> int:
     # Variable to keep track of the maximum length found
     max_len = 0
 
-    '''# Iterate through the string with the right pointer
+    # Iterate through the string with the right pointer
     for right in range(len(s)):
         # If the character is already in the set, shrink the window from the left
         while s[right] in char_set:
@@ -16,7 +16,7 @@ def length_of_longest_substring(s: str) -> int:
         char_set.add(s[right])
         # Update the maximum length if needed
         max_len = max(max_len, right - left + 1)
-    return max_len'''
+    return max_len
 
 # Example usage:
 if __name__ == "__main__":

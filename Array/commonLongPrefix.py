@@ -15,5 +15,17 @@ def longest_common_prefix(strs):
 
 # Example usage:
 if __name__ == "__main__":
-    arr = ["flower", "flow", "flight"]
-    print(longest_common_prefix(arr))  # Output: "fl"
+    test_cases = [
+        (["flower", "flow", "flight"], "fl"),
+        (["dog", "racecar", "car"], ""),
+        (["interspecies", "interstellar", "interstate"], "inters"),
+        (["throne", "throne"], "throne"),
+        ([""], ""),
+        (["a"], "a"),
+        (["prefix", "prefixes", "prefixation"], "prefix"),
+        (["abc", "def", "ghi"], ""),
+        (["same", "same", "same"], "same"),
+    ]
+    for arr, expected in test_cases:
+        result = longest_common_prefix(arr)
+        print(f"Input: {arr}\nOutput: '{result}' (Expected: '{expected}')\n")

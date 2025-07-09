@@ -6,7 +6,13 @@ def max_sum_subarray(arr):
     for i, num in enumerate(arr):
         current_sum += num
         if current_sum > max_sum:
-            n 
+            max_sum = current_sum
+            start = s
+            end = i
+        if current_sum < 0:
+            current_sum = 0
+            s = i + 1
+    return max_sum, arr[start:end+1]
 
 # Example usage:
 if __name__ == "__main__":

@@ -13,7 +13,11 @@ def longest_common_prefix(strs):
                 return ""  # No common prefix found
     return prefix  # Return the longest common prefix found
 
- 
+# Example usage:
+if __name__ == "__main__":
+    test_cases = [
+        (["flower", "flow", "flight"], "fl"),
+        (["dog", "racecar", "car"], ""),
          
     ]
     for arr, expected in test_cases:
